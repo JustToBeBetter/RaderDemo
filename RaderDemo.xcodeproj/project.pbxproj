@@ -15,6 +15,7 @@
 		0AD559C81C1196B400C66A72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD559C61C1196B400C66A72 /* LaunchScreen.storyboard */; };
 		0AD559D31C1196B400C66A72 /* RaderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD559D21C1196B400C66A72 /* RaderDemoTests.m */; };
 		0AD559DE1C1196B400C66A72 /* RaderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD559DD1C1196B400C66A72 /* RaderDemoUITests.m */; };
+		0AD559ED1C1196CF00C66A72 /* Rader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD559EC1C1196CF00C66A72 /* Rader.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0AD559D91C1196B400C66A72 /* RaderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD559DD1C1196B400C66A72 /* RaderDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaderDemoUITests.m; sourceTree = "<group>"; };
 		0AD559DF1C1196B400C66A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD559EB1C1196CF00C66A72 /* Rader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rader.h; sourceTree = "<group>"; };
+		0AD559EC1C1196CF00C66A72 /* Rader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				0AD559C61C1196B400C66A72 /* LaunchScreen.storyboard */,
 				0AD559C91C1196B400C66A72 /* Info.plist */,
 				0AD559B81C1196B400C66A72 /* Supporting Files */,
+				0AD559EB1C1196CF00C66A72 /* Rader.h */,
+				0AD559EC1C1196CF00C66A72 /* Rader.m */,
 			);
 			path = RaderDemo;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD559ED1C1196CF00C66A72 /* Rader.m in Sources */,
 				0AD559C01C1196B400C66A72 /* ViewController.m in Sources */,
 				0AD559BD1C1196B400C66A72 /* AppDelegate.m in Sources */,
 				0AD559BA1C1196B400C66A72 /* main.m in Sources */,

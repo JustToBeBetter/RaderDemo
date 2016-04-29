@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Rader.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor blackColor];
+    Rader *rader = [[Rader alloc]initWithFrame:self.view.bounds];
+    [rader animate:YES];
+    [self.view addSubview:rader];
+    
 }
 
 - (void)didReceiveMemoryWarning {
